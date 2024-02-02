@@ -1,0 +1,86 @@
+
+ .container2 {
+    background-color: white;
+    display: flex;
+   
+}
+
+@media screen and (max-width: 800px) {
+    .container2 {
+        display: block;
+        margin-left: 0; /* Reset o espaço à esquerda para telas menores */
+    }
+}
+
+.text2 {
+    text-align: justify;
+    margin-top: 90px;
+    margin-right: 130px;
+    margin-left: 60px; /* Espaço à esquerda */
+}
+
+@media screen and (max-width: 400px) {
+    .text2 {
+        text-align: justify;
+        margin-top: 50px;
+        margin-right: 18px;
+        margin-left: 18px; 
+    }
+}
+
+.container2 h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+   
+}
+
+@media screen and (max-width: 400px) {
+    .container2 h2 {
+        text-transform: uppercase;
+        font-size: 22px;
+        text-align: left;
+    }
+}
+
+.container2 p {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.imagem2 {
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 40px; /* Espaço à esquerda */
+    margin-bottom: 45px;
+   /*  border-radius: 28px; */
+}
+/* .imagem2{
+    border: 5px solid rgb(114, 112, 112); /* Define a largura da borda (5px) e a cor (preto) */
+    /* Outros estilos opcionais, como margem ou preenchimento 
+   
+}
+ */
+@media screen and (max-width: 600px) {
+    .imagem2 {
+        width: auto;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .imagem2 {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
+        margin-bottom: 15px;
+    }
+}

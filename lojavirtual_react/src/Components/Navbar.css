@@ -1,0 +1,14 @@
+#logo{
+    max-width: 70px;
+    
+}
+
+.navbar-nav{
+    margin-left: 40px; 
+}
+/* styles.css (seu arquivo CSS separado) */
+.custom-navbar {
+    background-color:#F1F1F1/* Substitua pela cor desejada para o background */
+    
+  }
+  

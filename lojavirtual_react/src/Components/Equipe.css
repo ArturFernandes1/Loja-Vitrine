@@ -1,0 +1,22 @@
+#team-area {
+  
+    color: rgb(17, 16, 16);
+   }
+
+#team-area {
+ padding-top: 30px;
+ padding-bottom: 30px;
+
+}
+
+.card-body{
+   height: 80px;
+
+}
+.card-img-top{
+    height: auto;
+   
+}
+.card{
+    border: none;
+}

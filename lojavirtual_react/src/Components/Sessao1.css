@@ -1,0 +1,89 @@
+/**************container ***************************/
+
+.container {
+    background-color: white;
+    display: flex;
+    width: 100%; /* Define a largura para 100% da página */
+    max-width: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: block;
+    }
+}
+
+.text {
+    width: auto;
+    text-align: justify;
+    margin-top: 90px;
+    margin-right: 80px;
+    margin-left: 120px;
+}
+
+@media screen and (max-width: 400px) {
+    .text {
+        text-align: justify;
+        margin-top: 50px;
+        margin-right: 18px;
+        margin-left: 18px;
+    }
+}
+
+.container h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .container h2 {
+        text-transform: uppercase;
+        font-size: 22px;
+        text-align: left;
+    }
+}
+
+.container p {
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.img-fluid {
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-bottom: 45px;
+  /*   border-radius: 28px; */
+   
+}
+/* .img-fluid{
+    border: 5px solid rgb(114, 112, 112); /* Define a largura da borda (5px) e a cor (preto) */
+    /* Outros estilos opcionais, como margem ou preenchimento 
+   
+} */
+
+@media screen and (max-width: 600px) {
+    .img-fluid {
+        width: auto;
+        height: 350px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img-fluid {
+        width: 350px;
+        height: 250px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: -10px;
+        margin-bottom: 15px;
+    }
+}

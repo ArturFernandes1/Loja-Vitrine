@@ -1,0 +1,57 @@
+
+
+/* .fale-conosco{
+    column-count: 2;
+    column-gap: 2em;
+
+    
+} */
+@media screen and (max-width: 680px){
+    .fale-conosco{
+        column-count: 1;
+    
+        
+    }
+}
+.fale-conosco{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 120px;
+    line-height: 20px;
+    margin-bottom: 80px;
+  
+}
+@media screen and (max-width: 600px) {
+    .fale-conosco{
+        text-align: justify;
+        margin-top: 50px;
+        margin-left: 25px;
+        margin-right: 25px;
+        line-height: 25px;
+        margin-bottom: 80px;
+      
+    }
+  
+   
+}
+
+.fale-conosco h2{
+    text-align: left;
+    font-size: 19px;
+  
+}
+.fale-conosco p{
+    text-align: left;
+ 
+  
+}
+
+/* Estilos de exemplo para o botão */
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366; /* Cor verde padrão do WhatsApp */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,87 @@
+.maps {
+    display: flex;
+    flex-direction: row; /* Por padrão, flex-direction é row, mas isso ajuda a esclarecer a intenção */
+    height: 340px;
+    background-color: #0064B0;
+    margin-bottom: 30px;
+ 
+}
+@media screen and (max-width: 600px) {
+    .maps{
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        height: 700px;
+        margin-bottom: 30px;
+       
+       
+    }
+}
+@media screen and (max-width: 300px) {
+    .maps{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        height: 1400px;
+        margin-bottom: 40px;     
+    }
+}
+
+
+.info {
+    flex: 1; /* Isso faz com que a div "info" ocupe o espaço disponível */
+    padding: 10px; /* Adicione margem interna para espaçamento */
+    text-align: center; /* Centraliza horizontalmente */
+    line-height: 100px;
+    color: white;
+    margin-top: 90px;
+}
+h2{
+   font-size: 28px;
+   text-align: center; /* Centraliza horizontalmente */
+   line-height:40px;
+}
+.name-empresa{
+    font-size: 48px;
+    text-align: center; /* Centraliza horizontalmente */
+    line-height:40px;
+    letter-spacing: -2.4px;
+}
+@media screen and (max-width: 300px) {
+    h2{
+        font-size: 22px;
+        text-align: center; /* Centraliza horizontalmente */
+        line-height:20px;
+     }
+    .name-empresa{
+        font-size: 30px;
+        text-align: center; /* Centraliza horizontalmente */
+        line-height:20px;
+        letter-spacing: -2.4px;
+    }
+}
+
+
+.maps-google iframe {
+    flex: 1; /* Isso faz com que a div "maps-google" ocupe o espaço disponível */
+    width: 650px;
+    height: 310px;
+    margin: 18px;
+   
+}
+@media screen and (max-width: 600px) {
+    .maps-google iframe {
+        width: 460px; /* Defina a largura máxima para que a iframe se ajuste à largura do contêiner pai */
+        height: 330px; /* Deixe a altura se ajustar automaticamente ao proporção da largura */
+        
+       
+    }
+}
+@media screen and (max-width: 300px) {
+    .maps-google iframe {
+        width: 320px; /* Defina a largura máxima para que a iframe se ajuste à largura do contêiner pai */
+        height: 300px; /* Deixe a altura se ajustar automaticamente ao proporção da largura */
+        
+       
+    }
+}
