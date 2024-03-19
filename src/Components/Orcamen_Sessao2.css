@@ -1,0 +1,121 @@
+/* Estilo global para o contêiner */
+.container {
+    justify-content: center; /* Centraliza horizontalmente */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos básicos do formulário */
+.formulario {
+    background-color: white;
+    text-align: center;
+    margin-bottom: 150px;
+    width: 100%; /* Ajuste para usar toda a largura disponível */
+    max-width: 1300px; /* Valor máximo de largura */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.corpo {
+    background-color: white;
+}
+
+.descricao, .descricao h1, .descricao p, #text-anexar p, #text-anexar, .formulario input, .formulario textarea {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos para a seção de anexar arquivos */
+#text-anexar {
+    display: flex;
+    flex-direction: row; /* Mantém os elementos lado a lado */
+    align-items: center; /* Alinha verticalmente ao centro */
+    justify-content: start; /* Alinha os itens ao início */
+    margin-bottom: 15px;
+}
+
+#text-anexar input[type="file"] {
+    border: none;
+    font-size: 16px;
+}
+
+/* Ajustes para os inputs e textarea */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="date"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+
+.formulario div {
+    display: flex;
+    flex-direction: row; /* Por padrão, mantém os elementos lado a lado */
+    justify-content: space-between;
+}
+/* Estilos para o botão de envio */
+.button button{
+    background-color: #007bff;
+    width: 150px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Ajuste para dispositivos com tela até 450px */
+@media screen and (max-width: 450px) {
+    .descricao h1, .descricao p {
+        font-size: 18px; /* Tamanho de fonte ajustado */
+        margin: 0 15px; /* Margem ajustada */
+    }
+
+    .formulario, #text-anexar, .formulario div {
+        margin: 20px 15px; /* Ajuste nas margens */
+        flex-direction: column; /* Muda a direção para coluna */
+    }
+
+    .formulario div input[type="text"],
+    .formulario div input[type="email"],
+    .formulario div input[type="date"] {
+        margin-right: 10; /* Remove a margem direita */
+    }
+}
+
+/* Ajustes adicionais para telas menores que 400px */
+@media screen and (max-width: 400px) {
+    .formulario{
+        flex-direction: column; /* Coloca os inputs um abaixo do outro */
+        justify-content: center;
+    }
+
+    .button button {
+        width: 50%; /* Botões ocupam toda a largura */
+        width: 100%; /* Botões ocupam toda a largura */
+        margin: 10px;
+        
+    
+    }
+    #text-anexar {
+        margin: 10px 0; /* Menor margem para economizar espaço */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+    
+    #text-anexar label {
+        font-size: 18px; /* Tamanho de fonte menor para economizar espaço */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+    
+    #text-anexar input[type="file"] {
+        font-size: 12px; /* Tamanho de fonte menor para o input */
+    }
+}

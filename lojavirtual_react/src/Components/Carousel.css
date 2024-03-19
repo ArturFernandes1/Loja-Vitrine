@@ -1,9 +1,0 @@
-.carousel-item {
-    align-items: center;
-    /* Alinha verticalmente ao centro */
-    justify-content: center;
-    /* Alinha horizontalmente ao centro */
-    max-height: 75vh;
-    width: 100%;
-    overflow: hidden;
-}

@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+  
+}
+
+
+.conteudo_empresa{
+    max-width: 1300px;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 40px; 
+    text-align: justify;
+  
+}
+@media screen and (max-width: 600px) {
+    .conteudo_empresa{
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 110px; 
+        text-align: justify;
+      
+    }
+    .conteudo_empresa h2{
+        margin-top: 10px;
+        font-size: 25px;
+        }
+}
+.conteudo_empresa h2{
+    margin-top: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    
+}
+
+.conteudo_empresa h1 hr{
+    width: 100%;
+    size: 10px;
+    color: black;
+    
+}
+.conteudo_empresa p{
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 17px;
+}

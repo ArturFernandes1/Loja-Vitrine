@@ -1,0 +1,34 @@
+/* Estilos de exemplo para o botão */
+.whatsapp {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+.zapp{
+    padding-top: -20px;
+    padding-left: -20px;
+    padding-bottom: -20;
+  
+}
+#Conf-whatsapp {
+    background-color: #25d366; /* Cor verde padrão do WhatsApp */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 170px;
+    margin-top: -20px;
+    
+    
+}
+
+
+/* Estilos de exemplo para o botão */
+#Conf-whatsapp{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #25d366; /* Cor verde padrão do WhatsApp */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}

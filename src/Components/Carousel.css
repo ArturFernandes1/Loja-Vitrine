@@ -1,0 +1,47 @@
+/* Carousel.css */
+ .carousel-item img{
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    justify-content: center;
+    /* Alinha horizontalmente ao centro */
+    max-height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover; /* Assegura que a imagem cubra todo o espaço disponível, podendo cortar um pouco das bordas se necessário */
+    opacity: 0.9;
+} 
+
+/* Ajustes para responsividade e melhor visualização em diferentes dispositivos */
+@media (max-width: 768px) {
+    .carousel-caption {
+        background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo para melhorar a legibilidade dos textos em dispositivos menores */
+        border-radius: 5px; /* Bordas arredondadas para o fundo */
+        padding: 10px; /* Espaçamento interno para não colar o texto nas bordas */
+    }
+}
+
+/* Ajustes adicionais para a responsividade e acessibilidade */
+.carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Torna os botões de controle mais acessíveis em telas menores */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%); /* Muda a cor dos ícones para garantir contraste em diferentes fundos de imagens */
+}
+
+.carousel-caption{
+    font-size: 45px;
+    text-align: left;
+    margin-left: 35px;
+
+}
+.carousel-caption h1{
+   font-size: 36px;
+   text-align: left;
+   margin: 0;
+}
+.opacity-75{
+    font-size: 30px;
+    text-align: left;
+    
+ }

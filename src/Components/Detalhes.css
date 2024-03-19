@@ -1,0 +1,15 @@
+#services-area{
+    background-color: rgb(194, 191, 191);
+
+}
+.container{
+    padding: 20px;
+}
+.title{
+    padding: 25px;
+}
+.col-md-3{
+    background-color: aqua;
+    justify-content: space-between;
+    margin: 4px;
+}
