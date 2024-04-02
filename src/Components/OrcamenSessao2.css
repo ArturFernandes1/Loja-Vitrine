@@ -4,6 +4,17 @@
     display: flex;
     flex-direction: column;
 }
+.container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
 
 /* Estilos básicos do formulário */
 .formulario {
@@ -11,7 +22,7 @@
     text-align: center;
     margin-bottom: 150px;
     width: 100%; /* Ajuste para usar toda a largura disponível */
-    max-width: 1300px; /* Valor máximo de largura */
+    max-width: 1200px; /* Valor máximo de largura */
     margin: 0 auto; /* Centraliza horizontalmente */
     border: 1px solid #ccc;
     padding: 20px;
@@ -52,6 +63,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    margin-right: 15px;
     
 }
 
@@ -72,27 +84,16 @@
     cursor: pointer;
 }
 
-/* Ajuste para dispositivos com tela até 450px */
-@media screen and (max-width: 450px) {
+/* Ajuste para dispositivos com tela até 700px */
+@media screen and (max-width: 700px) {
     .descricao h1, .descricao p {
         font-size: 18px; /* Tamanho de fonte ajustado */
         margin: 0 15px; /* Margem ajustada */
     }
 
     .formulario, #text-anexar, .formulario div {
-        margin: 20px 15px; /* Ajuste nas margens */
         flex-direction: column; /* Muda a direção para coluna */
     }
-
-    .formulario div input[type="text"],
-    .formulario div input[type="email"],
-    .formulario div input[type="date"] {
-        margin-right: 10; /* Remove a margem direita */
-    }
-}
-
-/* Ajustes adicionais para telas menores que 400px */
-@media screen and (max-width: 400px) {
     .formulario{
         flex-direction: column; /* Coloca os inputs um abaixo do outro */
         justify-content: center;
@@ -118,4 +119,47 @@
     #text-anexar input[type="file"] {
         font-size: 12px; /* Tamanho de fonte menor para o input */
     }
+
+ 
 }
+
+/* Ajustes adicionais para telas menores que 400px */
+@media screen and (max-width: 400px){
+    .descricao h1, .descricao p {
+        font-size: 18px; /* Tamanho de fonte ajustado */
+        margin: 0 15px; /* Margem ajustada */
+    }
+    
+    .formulario, #text-anexar, .formulario div {
+        flex-direction: column; /* Muda a direção para coluna */
+    }
+    .formulario{
+        flex-direction: column; /* Coloca os inputs um abaixo do outro */
+        justify-content: center;
+    }
+    
+    .button button {
+        width: 50%; /* Botões ocupam toda a largura */
+        width: 100%; /* Botões ocupam toda a largura */
+        margin: 10px;
+        
+    
+    }
+    #text-anexar {
+        margin: 10px 0; /* Menor margem para economizar espaço */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+    
+    #text-anexar label {
+        font-size: 18px; /* Tamanho de fonte menor para economizar espaço */
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+    
+    #text-anexar input[type="file"] {
+        font-size: 12px; /* Tamanho de fonte menor para o input */
+    }
+
+
+}    
+
+

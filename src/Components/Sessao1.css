@@ -1,20 +1,43 @@
+.container1{
+    background-color: rgb(24, 23, 85);
+    padding-top: 35px;
+    padding-bottom: 35px;
 
+
+}
 .container0 {
-    background-color: white;
     display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
    
 }
-
+.title{
+    color: rgb(74, 136, 230);
+}
+.img-fluid {
+    width: 520px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 40px; 
+    margin-bottom: 20px;
+    border-radius: 0px 180px 180px 0px;
+   /*  border: solid 5px #8d8a8a; */
+  
+}
 @media screen and (max-width: 800px) {
     .container0 {
-        display: block;
+        flex-direction: column;
         
     }
 }
 
 .texto1{
+    color: white;
     text-align: justify;
-    margin-top: 70px;
+    margin-top: 100px;
     margin-right: 100px;
     margin-left: 60px; /* Espaço à esquerda */
 }
@@ -57,15 +80,10 @@
     margin-left: 110px;
     margin-right: 40px; /* Espaço à esquerda */
     margin-bottom: 20px;
-   /*  border-radius: 28px; */
+  
 }
 
-/* .imagem2{
-    border: 5px solid rgb(114, 112, 112); /* Define a largura da borda (5px) e a cor (preto) */
-    /* Outros estilos opcionais, como margem ou preenchimento 
-   
-}
- */
+
 @media screen and (max-width: 600px) {
     .img-fluid {
         width: auto;

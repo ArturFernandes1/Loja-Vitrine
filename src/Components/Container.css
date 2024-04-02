@@ -1,3 +1,25 @@
-.container1{
+.container1 {
     display: flex;
+    justify-content: space-between; /* Ajusta o espaçamento entre os componentes */
+    align-items: left; /* Alinha os componentes verticalmente no centro, se desejado */
+    margin-bottom: 25px;
+  }
+
+#button{
+    display: flex;
+    justify-content: center;
 }
+#Conf-whatsapp{
+    text-align: center;
+  }
+
+
+  @media (max-width: 768px) { /* Exemplo de ponto de quebra */
+    .container1 {
+      flex-direction: column;
+      margin-top: -10px;
+      margin-bottom: 38px;
+   
+    }
+  }
+  

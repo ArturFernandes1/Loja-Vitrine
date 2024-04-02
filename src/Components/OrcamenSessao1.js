@@ -1,8 +1,8 @@
 import React from "react";
-import "../Components/Orcamen_Sessao1.css";
+import "../Components/OrcamenSessao1.css";
 
 
-function Orcamen_Sessao1(){
+function OrcamenSessao1(){
     return(
         <>
         <div className="text-descricao">
@@ -14,4 +14,4 @@ function Orcamen_Sessao1(){
 
     );
 };
-export default Orcamen_Sessao1;
+export default OrcamenSessao1;

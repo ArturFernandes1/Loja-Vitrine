@@ -1,8 +1,8 @@
 import React from "react";
-import "../Components/Orcamen_Sessao2.css";
+import "../Components/OrcamenSessao2.css";
 
 
-function Orcamen_Sessao2() {
+function OrcamenSessao2() {
   return (
     <div>
       <div className="container">
@@ -45,5 +45,5 @@ function Orcamen_Sessao2() {
   );
 }
 
-export default Orcamen_Sessao2;
+export default OrcamenSessao2;
 

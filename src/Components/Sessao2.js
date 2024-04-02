@@ -1,21 +1,28 @@
 import React from "react";
-import moveis2 from "../Assets/moveis2.jpg"
 import "../Components/Sessao2.css"
 
 function Sessao2(){
     return(
+        <div className="container-2">
         <div className="container2">
-        <img src={moveis2} className="imagem2"></img>
-            <div className="text2">
-                <h2>A Cozinha perfeita para o seu espaço</h2>
-                <hr className="linha1" width="auto" ></hr>
-                <p> Você prefere beleza ou praticidade? Agora, você pode ter os dois!
-                Com as cozinhas da Luxor, você tem um ambiente que facilita suas atividades ao mesmo tempo que é belo e
-                impactante. São escolhas feitas pelos melhores profissionais para entregar a cozinha dos sonhos. Perfeito para
-                preparar as refeições mais especiais e surpreender quem você gosta.</p>
-            </div>
-    </div>
+                <div className="text2">
+                    <h1>Nossa Missão</h1>
+                    <h2>Nossa Missão é Dupla</h2>
+                    <p>Nossa missão é unir forma e função, oferecendo móveis projetados que atendam às necessidades práticas dos clientes, otimizando espaços e proporcionando conforto, enquanto inspiramos e elevamos ambientes, criando soluções esteticamente atraentes que refletem personalidade e estilo de vida, transformando espaços com elegância e sofisticação. </p>
+                    <div className="quad-1">
+                    <h3>1</h3>
+                        <p class="text-over-heading">
+                        Fornecer móveis práticos que atendam às necessidades dos clientes, garantindo conforto e funcionalidade. </p>
+                    </div>
+                    <div className="quad-1">
+                    <h3>2</h3>
+                        <p class="text-over-heading">Inspiramos ambientes com soluções criativas e móveis únicos, criados com cuidado artesanal, elevando espaços com elegância..</p>
 
+                    </div>
+                </div>
+        </div>
+
+    </div>
 
     )
 }

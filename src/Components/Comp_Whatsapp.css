@@ -32,3 +32,11 @@
     text-decoration: none;
     border-radius: 5px;
 }
+@media screen and (max-width: 400px) {
+    .container-whatsapp {
+        display: flex;
+        flex-direction: column;
+      }
+      
+    
+}

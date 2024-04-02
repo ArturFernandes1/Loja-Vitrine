@@ -1,93 +1,98 @@
+.container-2{
+    background-image: url('../Assets/imagefundo.jpg');
+    margin-top: -25px;
 
+}
  .container2 {
-    background-color: white;
+    background-size: cover; 
+    background-position: center;
     display: flex;
-   
+    height: 80vh;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
-@media screen and (max-width: 800px) {
-    .container2 {
-        display: block;
-        margin-left: 0; /* Reset o espaço à esquerda para telas menores */
-    }
+.text2 h1, h2{
+    text-align: center;
+    margin-top: 20px;
 }
 
-.text2 {
-    text-align: justify;
-    margin-top: 90px;
-    margin-right: 100px;
-    margin-left: 60px; /* Espaço à esquerda */
+.text2 p{
+    text-align: center;
+    margin-top: 20px;
+    max-width: 700px;
 }
 
-@media screen and (max-width: 400px) {
-    .text2 {
-        text-align: justify;
-        margin-top: 50px;
-        margin-right: 18px;
-        margin-left: 18px; 
-    }
+
+.quad-1{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #b4b4b8;
+    position: relative;
+    width: 240px;
+    height: 240px;
+    color: #181755;
+    border-radius: 8px;
+    text-align: center;
+}
+.quad-1 {
+    display: inline-block;
+    margin: 30px 50px 0px 40px;
+} 
+.quad-1 h3{
+    font-size: 180px;
+    opacity: 0.8;
+    text-align: center;
 }
 
-.container2 h2 {
-    text-transform: uppercase;
-    font-size: 27px;
-    font-family: 'Quicksand', sans-serif;
-   
-}
-
-@media screen and (max-width: 400px) {
-    .container2 h2 {
-        text-transform: uppercase;
-        font-size: 17px;
-        text-align: left;
-    }
-}
-
-.container2 p {
-    font-size: 17px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.imagem2 {
-    width: 520px;
-    height: 400px;
+.quad-1 p{
+    font-size: 18px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 8px;
     margin-top: 50px;
-    margin-left: 110px;
-    margin-right: 40px; /* Espaço à esquerda */
-    margin-bottom: 45px;
-   /*  border-radius: 28px; */
 }
-/* .imagem2{
-    border: 5px solid rgb(114, 112, 112); /* Define a largura da borda (5px) e a cor (preto) */
-    /* Outros estilos opcionais, como margem ou preenchimento 
-   
-}
- */
-@media screen and (max-width: 600px) {
-    .imagem2 {
-        width: auto;
-        height: 350px;
-        margin-top: 20px;
-        margin-left: 0;
-        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
-        margin-bottom: 15px;
-    }
+.text-over-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
+h3 {
+    /* Adicione estilos adicionais conforme necessário */
+    position: relative; /* Garante que o h3 permaneça no fluxo do documento */
+    z-index: 0;
+}
+@media screen and (max-width: 1150px) {
+    .container2 {
+        background-image: url('../Assets/imagefundo.jpg');
+        background-size: cover; 
+        background-position: center;
+        display: flex;
+        height: 80vh;
+        max-width: 1400px;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+}
 @media screen and (max-width: 400px) {
-    .imagem2 {
-        width: 350px;
-        height: 250px;
+    .container2 {
+        background-image: url('../Assets/imagefundo.jpg');
+        background-size: cover; 
+        background-position: center;
+        display: flex;
+        height: 95vh;
         margin-top: 20px;
-        margin-left: 20px;
-        margin-right: -10px; /* Corrigi o valor para incluir o "px" faltando */
-        margin-bottom: -10px;
+        max-width: 1400px;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
     }
-}
-
-
-@media screen and (max-width: 400px){
-    .linha1{
-        margin-top: 10px;
-    }
+    
 }

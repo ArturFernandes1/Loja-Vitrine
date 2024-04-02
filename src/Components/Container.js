@@ -7,9 +7,10 @@ import "../Components/Container.css";
 function Container(){
     return(
         <div className="container1">
-            <Contato_info/>
-            <Comp_Whatsapp/>
-        </div>
+        <Contato_info className="contatoInfo"/>
+        <Comp_Whatsapp className="compWhatsapp"/>
+      </div>
+      
     )
 }
 export default Container;
