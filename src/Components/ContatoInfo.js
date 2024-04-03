@@ -1,7 +1,7 @@
 import React from 'react';
-import "../Components/Contato_info.css"
+import "../Components/ContatoInfo.css"
 
-function Contato_info() {
+function ContatoInfo() {
   return (
     <div className="fale-conosco">
       <h3>Fale Conosco</h3>
@@ -20,4 +20,4 @@ function Contato_info() {
   );
 }
 
-export default Contato_info;
+export default ContatoInfo;

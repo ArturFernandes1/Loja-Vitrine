@@ -1,9 +1,5 @@
 import React from 'react';
-
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./Components/Navbar";
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Components/Paginas/Home";
 import Empresa from "./Components/Paginas/Empresa";
@@ -23,7 +19,6 @@ function App() {
           <Route path="/contato" element={<Contato/>} />
           <Route path="/orcamento" element={<Orcamento/>} />
           <Route path="/portifolio" element={< Portifolio/>} />
-
         </Routes>
       </BrowserRouter>
     </>

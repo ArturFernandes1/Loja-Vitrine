@@ -1,6 +1,6 @@
 import React from 'react';
-import "../Components/Compo_Empresa.css";
-function Compo_Empresa() {
+import "../Components/CompoEmpresa.css";
+function CompoEmpresa() {
     return (
        
         
@@ -40,4 +40,4 @@ function Compo_Empresa() {
     )
 }
 
-export default Compo_Empresa;
+export default CompoEmpresa;

@@ -7,7 +7,7 @@ function Sessao1(){
     return(
         <div className="container1">
         <div className="container0">
-            <img src={Moveis1} class="img-fluid"/>
+            <img src={Moveis1} class="img-fluid" alt="Imagem de um movel planejado,e um designer único"/>
             <div className="texto1">
                     <h2 className="title">MÓVEIS PLANEJADOS</h2>
                     <hr class="linha1" width="auto"></hr>

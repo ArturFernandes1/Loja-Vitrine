@@ -1,14 +1,13 @@
 import React from "react";
-import Navbar from "../Navbar";
-import Compo_Empresa from "../Compo_Empresa"
+import NewsNavbar from "../NewsNavbar";
+import CompoEmpresa from "../CompoEmpresa"
 
 
 export default function Empresa(){ 
     return( 
         <div className="App"> 
-            <Navbar/>
-            <Compo_Empresa/>
-         
+            <NewsNavbar/>
+            <CompoEmpresa/> 
         </div>
     )
 

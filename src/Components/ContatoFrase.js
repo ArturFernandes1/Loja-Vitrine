@@ -1,7 +1,7 @@
 import React from 'react';
-import "../Components/Contato_frase.css"
+import "../Components/ContatoFrase.css"
 
-function Contato_frase(){
+function ContatoFrase(){
     return (
         <div>
           <h1>Contato</h1>
@@ -10,4 +10,4 @@ function Contato_frase(){
       );
       
 }
-export default Contato_frase;
+export default ContatoFrase;

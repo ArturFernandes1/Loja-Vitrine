@@ -1,7 +1,6 @@
 import React from 'react';
 import Cozinha1 from "../Assets/Cozinha1.jpg";
 import Cozinha2 from "../Assets/Cozinha2.jpeg";
-import Moveis1 from "../Assets/Moveis1.jpg";
 import Sala11 from "../Assets/Sala11.jpg";
 import "./Carousel.css";
 

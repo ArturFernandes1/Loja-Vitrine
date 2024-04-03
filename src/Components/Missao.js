@@ -24,7 +24,7 @@ function Missao() {
                                 que seu projeto realmente tenha a personalização que você merece.
                                 </p> 
                         </div> 
-                <img src={Cozinha1} class="img-fluid3"></img>
+                <img src={Cozinha1} class="img-fluid3" alt="Imagem de uma cozinha planejada"/>
             </div>
         </div>
     )
