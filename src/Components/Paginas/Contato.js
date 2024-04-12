@@ -1,15 +1,13 @@
 import React from "react";
 import NewsNavbar from "../NewsNavbar";
-import ContatoFrase from "../ContatoFrase";
 import Localizacao from "../Localizacao";
-import Container from "../Container";
+import SessaoContato from "../SessaoContato";
 
 export default function Contato(){ 
     return( 
         <div className="App"> 
             <NewsNavbar/>
-            <ContatoFrase/>
-            <Container/>
+            <SessaoContato/>
             <Localizacao/>     
         </div>
     )

@@ -1,28 +1,22 @@
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 .topnav {
   overflow: hidden;
-  background-color: white;
-  border-bottom: 1px solid rgb(71, 68, 68);
+  background-color: #333336;
 }
-  
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 15px;
   text-decoration: none;
   font-size: 17px;
-
 }
-  
 .topnav a:hover {
-    background-color: #979797;
-    color: #474747;
+    background-color: #858484;
     transition: 0.9s;
   }
   
@@ -55,12 +49,10 @@ body {
     }
     .topnav a:hover {
         background-color: #979797;
-        color: black;
       }
     .topnav .first-item {
         margin-left: 4px; /* Ou o valor que preferir */
       } 
-      
   }
   
 

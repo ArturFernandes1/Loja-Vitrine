@@ -22,12 +22,18 @@ function NewsNavbar(){
                 <a href="/Contato">CONTATO</a>
                 <a href="/Portifolio">PORTIFÓLIO</a>
                 <a className="last" href="/Orcamento">ORÇAMENTO</a>
-                <a href="javascript:void(0);" className="icon" onClick={toggleMenu}>    
+             {/*    <a href="javascript:void(0);" className="icon" onClick={toggleMenu}>    
                     <FontAwesomeIcon icon={faBars} />
+                </a>  */}
+                <a href="#" className="icon" onClick={toggleMenu}>
+                <FontAwesomeIcon icon={faBars} />
                 </a>
+
             </div>
         </header>
     );
 }
 
 export default NewsNavbar;
+
+

@@ -1,11 +1,47 @@
+#localizacao-empresa{
+    background-color: rgb(190, 190, 190);
+}
+
 .maps {
     display: flex;
-    flex-direction: row; /* Por padrão, flex-direction é row, mas isso ajuda a esclarecer a intenção */
-    height: 340px;
-    background-color: #0064B0;
-    margin-bottom: 30px;
- 
+    justify-content: center;
+    gap: 10px;
+    max-width: 1400px;
+    padding: 35px;
+    margin: 0 auto;
+    
 }
+.maps{
+    margin-bottom: 45px;
+}
+.info {
+    flex: 1; /* Isso faz com que a div "info" ocupe o espaço disponível */
+    padding: 10px; /* Adicione margem interna para espaçamento */
+    text-align: center; /* Centraliza horizontalmente */
+    line-height: 100px;
+    color: rgb(24, 23, 23);
+    margin-top: 90px;
+}
+h2{
+    font-size: 45px;
+    text-align: center; /* Centraliza horizontalmente */
+    line-height:40px;
+}
+.name-empresa{
+    font-size: 32px;
+    text-align: center; /* Centraliza horizontalmente */
+    line-height:20px;
+    letter-spacing: -2.4px;
+}
+
+.maps-google iframe {
+    flex: 1; /* Isso faz com que a div "maps-google" ocupe o espaço disponível */
+    width: 650px;
+    height: 310px;
+    margin: 18px;
+   
+}
+
 @media screen and (max-width: 600px) {
     .maps{
         width: 100%;
@@ -13,41 +49,24 @@
         flex-direction: column;
         height: 700px;
         margin-bottom: 30px;
-       
+        
+        
+    }
+    .maps-google iframe {
+        width: 460px; /* Defina a largura máxima para que a iframe se ajuste à largura do contêiner pai */
+        height: 330px; /* Deixe a altura se ajustar automaticamente ao proporção da largura */
+        
        
     }
 }
 @media screen and (max-width: 300px) {
     .maps{
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        height: 1400px;
-        margin-bottom: 40px;     
+        height: 400px;
+   
     }
-}
-
-
-.info {
-    flex: 1; /* Isso faz com que a div "info" ocupe o espaço disponível */
-    padding: 10px; /* Adicione margem interna para espaçamento */
-    text-align: center; /* Centraliza horizontalmente */
-    line-height: 100px;
-    color: white;
-    margin-top: 90px;
-}
-h2{
-   font-size: 28px;
-   text-align: center; /* Centraliza horizontalmente */
-   line-height:40px;
-}
-.name-empresa{
-    font-size: 48px;
-    text-align: center; /* Centraliza horizontalmente */
-    line-height:40px;
-    letter-spacing: -2.4px;
-}
-@media screen and (max-width: 300px) {
     h2{
         font-size: 22px;
         text-align: center; /* Centraliza horizontalmente */
@@ -59,29 +78,39 @@ h2{
         line-height:20px;
         letter-spacing: -2.4px;
     }
-}
-
-
-.maps-google iframe {
-    flex: 1; /* Isso faz com que a div "maps-google" ocupe o espaço disponível */
-    width: 650px;
-    height: 310px;
-    margin: 18px;
-   
-}
-@media screen and (max-width: 600px) {
-    .maps-google iframe {
-        width: 460px; /* Defina a largura máxima para que a iframe se ajuste à largura do contêiner pai */
-        height: 330px; /* Deixe a altura se ajustar automaticamente ao proporção da largura */
-        
+    .maps-google {
+        flex: 1; /* Isso faz com que a div "maps-google" ocupe o espaço disponível */
+        width: 360px;
+       
+       
+       
        
     }
 }
-@media screen and (max-width: 300px) {
-    .maps-google iframe {
-        width: 320px; /* Defina a largura máxima para que a iframe se ajuste à largura do contêiner pai */
-        height: 300px; /* Deixe a altura se ajustar automaticamente ao proporção da largura */
-        
-       
+
+/* ###################### */
+.maps-google {
+    display: flex; /* Usa Flexbox para alinhamento */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px; /* Adiciona um pouco de espaço ao redor para não tocar as bordas da tela */
+  }
+  
+  .maps-google iframe {
+
+    width: 650px; /* Limita a largura máxima para não ficar muito grande em telas maiores */
+    height: auto; /* Altura automática para manter a proporção */
+    aspect-ratio: 16 / 9; /* Mantém uma proporção de aspecto */
+    border: 0; /* Remove a borda padrão do iframe */
+  }
+  
+  @media (max-width: 300px) {
+    .maps-google {
+      padding: 10px; /* Reduz o padding em telas muito pequenas para maximizar o espaço disponível */
     }
-}
+    
+    .maps-google iframe {
+      width: 200px;
+      height: 150px; /* Altura ajustada para garantir que o mapa seja visível mas não ocupe muito espaço */
+    }
+  }

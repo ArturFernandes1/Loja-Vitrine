@@ -1,17 +1,26 @@
-/****************************Estilição do conteudo*******************************/
-/* ... Seu código CSS existente ... */
 
 /* Ajustes para a seção de portfólio */
+.portifolio{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
 .section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 10px;
-    margin-top: 20px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 }
-
+.portifolio h1{
+    margin-left: 0px;
+    font-size: 40px;
+}
+.portifolio hr{
+    margin-bottom: 45px;
+}
 .card {
     flex-basis: calc(33.33% - 9px); /* 33.33% - 2 * 8px (espaçamento entre cartões) */
     box-sizing: border-box;
@@ -21,7 +30,6 @@
     line-height: 6px;
     margin-bottom: 10px; /* Adicione espaço abaixo de cada cartão */
 }
-
 
 .card img {
     width: 100%;
@@ -57,28 +65,12 @@
 .detalhes h3{
     font-size: 22px;
     margin-bottom: 30px;
-
 }
-.detalhes p{
-    
-}
-
 .detalhes a{
     background-color: white;
     margin-top: 20px;
     color: blue;
-   
 }
-
-
-
-
-
-
-
-
-
-
 /* Media query para telas menores ou iguais a 600px */
 @media screen and (max-width: 600px) {
     .section {
@@ -101,30 +93,6 @@
     .card {
         flex-basis: 100%; /* Define a largura dos cartões para 100% da largura da coluna */
     }
-}
-/* Estilos adicionais conforme necessário */
-
-/* Estilização do h1 e do hr de portifolio */
-.porti{
-  
-    margin-top: 80px;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-bottom: 40px; 
-    text-align: left;
-  
-}
-.porti h1{
-    margin-top: 25px;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-}
-.porti hr{
-    margin-left: 100px;
-    margin-right: 100px;
-    
-    size: 10px;
-    color: black;
 }
 
 .catalogo{

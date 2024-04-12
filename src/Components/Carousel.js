@@ -19,7 +19,6 @@ function Carousel() {
                     <div className="carousel-caption custom-carousel-caption">
                         <h1>Realize o Sonho da Cozinha Planejada!</h1>
                        <p className="opacity-75"> Não é só sobre beleza; é sobre funcionalidade. Gavetas inteligentes, armários acessíveis e superfícies de trabalho adaptadas a você, tudo pensado para maximizar o espaço e facilitar o seu dia a dia. Desperte o chef que há em você em um ambiente que inspira criatividade e reúne a família.</p>
-                      {/*   <p><a className="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>  */}
                     </div>
                 </div>
             </div>
@@ -29,7 +28,6 @@ function Carousel() {
                     <div className="carousel-caption text-start custom-carousel-caption">
                         <h1>Transforme seu quarto em um refúgio personalizado.</h1>
                      <p className="opacity-75">Renove seu quarto e transforme-o em um refúgio pessoal, sob medida para seus gostos e necessidades. Com móveis projetados, você pode criar um ambiente único e funcional, que reflete sua personalidade e estilo de vida.</p>
-                       {/*  <p><a className="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>  */}
                     </div>
                 </div>
             </div>
@@ -40,7 +38,6 @@ function Carousel() {
                         <h1>Estilo e praticidade se unem neste quarto com móveis modernos.</h1>
                     <p className="opacity-75">Experimente os cursos e materiais 
                     funcionalidade. Gavetas inteligentes, armários acessíveis e superfícies de trabalho adaptadas a você, tudo pensado para maximizar o espaço e facilitar o seu dia a dia. Desperte o chef que há em você em um ambiente que inspira criatividade e reúne a família.disponibilizados pelo IEEE.</p>
-                  {/*       <p><a className="btn btn-lg btn-primary" href="#">Saiba Mais</a></p>  */}
                     </div>
                 </div>
             </div>

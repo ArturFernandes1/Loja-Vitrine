@@ -8,6 +8,8 @@ import Cozinha6 from "../Assets/Cozinha6.jpg"
 import Cozinha7 from "../Assets/Cozinha7.jpg"
 import quarto0011 from "../Assets/quarto0011.jpg"
 import Office06 from "../Assets/Office06.jpg"
+import Quarto9 from "../Assets/Quarto9.jpg"
+import Painel1 from "../Assets/Painel1.png"
 
 
 
@@ -15,25 +17,21 @@ import Office06 from "../Assets/Office06.jpg"
 
 function PortiSessao1(){
     return(
-        <>
-            <div className="porti">
+
+        <div className='portifolio'>
+           
             <h1>Portifólio</h1>
             <hr></hr>
-            </div>
+        
             <section className="section">
-            
                 <div className="card">
                     <img src={Cozinha1} alt="Projeto 01"/>
                         <div className='detalhes'>
                             <h3>Dicas de decoração para apartamentos pequenos</h3>
                             <p>Imóveis compactos são cada vez mais comuns no mercado imobiliário. Isso porque, com a ocupação dos grandes centros urbanos e a busca acirrada pelas melhores</p>
-                        
-                            <a href='#/'>LEIA AGORA</a>
-                            
-                           
-                          
+                            <a href='#/'>LEIA AGORA</a>         
                         </div>
-                    </div>
+                </div>
                 <div className="card">
                     <img src={Banheiro} alt="Projeto 01"/>
                         <div className='detalhes'>
@@ -126,17 +124,32 @@ function PortiSessao1(){
                             <a href='#/'>LEIA AGORA</a>
                         </div>
                 </div>
-             
-                
+                <div className="card">
+                    <img src={Quarto9} alt="Projeto 01"/>
+                        <div className='detalhes'>
+                            <h3>Dicas de decoração para apartamentos pequenos</h3>
+                            <p>Imóveis compactos são cada vez mais comuns no mercado imobiliário. Isso porque, com a ocupação dos grandes centros urbanos e a busca acirrada pelas melhores</p>
+                            <a href='#/'>LEIA AGORA</a>         
+                        </div>
+                </div>
+                <div className="card">
+                    <img src={Painel1} alt="Projeto 01"/>
+                        <div className='detalhes'>
+                            <h3>Dicas de decoração para apartamentos pequenos</h3>
+                            <p>Imóveis compactos são cada vez mais comuns no mercado imobiliário. Isso porque, com a ocupação dos grandes centros urbanos e a busca acirrada pelas melhores</p>
+                            <a href='#/'>LEIA AGORA</a>         
+                        </div>
+                </div>
+                <div className="card">
+                    <img src={Quarto9} alt="Projeto 01"/>
+                        <div className='detalhes'>
+                            <h3>Dicas de decoração para apartamentos pequenos</h3>
+                            <p>Imóveis compactos são cada vez mais comuns no mercado imobiliário. Isso porque, com a ocupação dos grandes centros urbanos e a busca acirrada pelas melhores</p>
+                            <a href='#/'>LEIA AGORA</a>         
+                        </div>
+                </div>
             </section>
-
-
-        <div className="porti">
-        <h1>Catalogo</h1>
-        <hr></hr>
-        </div>
-
-    </>
+    </div>
     )
 }
 export default PortiSessao1;

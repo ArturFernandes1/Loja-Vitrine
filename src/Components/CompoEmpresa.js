@@ -2,9 +2,7 @@ import React from 'react';
 import "../Components/CompoEmpresa.css";
 function CompoEmpresa() {
     return (
-       
-        
-       <div>
+       <div  className='conteudo'>
             <div className="conteudo_empresa">
                 <h2>Pai & Filho Móveis Projetados</h2>
                 <hr></hr>
@@ -25,7 +23,7 @@ function CompoEmpresa() {
                 <p>
                     Nossa missão é oferecer produtos inovadores com soluções efetivas e criativas aos nossos clientes, superando as expectativas e realizando sonhos com alta qualidade e design inspirador. Nossa visão é a excelência na prestação de serviços. Nossos valores é trabalhar com ética e transparência no atendimento aos clientes, tendo como foco principal a qualidade em todos os aspectos da empresa.
                 </p>
-                <p>
+              
                     <p>- A Empresa estabelece sua política da qualidade como base do cumprimento dos requisitos do Sistema de Gestão da Qualidade, de acordo com os seguintes princípios:</p>
                     <p> - Excelência: Atender aos requisitos necessários para excelência na prestação de serviços;</p>
                     <p> Compromisso: Garantir recursos, instalações e condições adequadas a todos os nossos colaboradores e aos prestadores de serviços que atuem nos processos internos da organização para execução do trabalho com saúde e segurança;</p>
@@ -33,7 +31,7 @@ function CompoEmpresa() {
                     <p> - Qualidade: Satisfazer as expectativas de nossos clientes, oferecendo soluções em móveis planejados com a garantia e qualidade dentro dos prazos estabelecidos e preços acordados;</p>
                     <p>Sustentabilidade: Por se preocupar com o futuro é que a Marrom Móveis pensa nas suas ações no presente, por isso, nossa matéria-prima é proveniente de plantações de madeira reflorestada. Todos os resíduos da Marrom Móveis passam por um sistema de reciclagem que evita que os dejetos sejam lançados na natureza. Assim, além de evitar desperdícios, protegemos o meio ambiente.</p>
                     
-                </p> 
+               
             </div>         
 
        </div>
