@@ -1,39 +1,30 @@
-import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import "./NewsNavbar.css"
 
-function NewsNavbar(){
+import React, { useState } from 'react';
+import './NewsNavbar.css'; // Assegure-se de ter este arquivo de estilos na mesma pasta ou ajuste o caminho conforme necessário
+
+const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
+        setIsOpen(!isOpen);
     };
 
-    return(
+    return (
         <header>
-            <div className="topnav" id="myTopnav">
-                <a href="/" className="active first-item">HOME</a>
+            <div className={`topnav${isOpen ? ' responsive' : ''}`} id="myTopnav">
+                <h1 className="titleh1"><samp id="spam1">PAI</samp> <samp id="spam2">&FILHO</samp></h1>
+                <a href="/">HOME</a>
                 <a href="/Empresa">EMPRESA</a>
                 <a href="/Contato">CONTATO</a>
                 <a href="/Portifolio">PORTIFÓLIO</a>
-                <a className="last" href="/Orcamento">ORÇAMENTO</a>
-             {/*    <a href="javascript:void(0);" className="icon" onClick={toggleMenu}>    
-                    <FontAwesomeIcon icon={faBars} />
-                </a>  */}
+                <a href="/Orcamento"  id='item-last'>ORÇAMENTO</a>
                 <a href="#" className="icon" onClick={toggleMenu}>
-                <FontAwesomeIcon icon={faBars} />
+                    <span>&#9776;</span>
                 </a>
-
+                
             </div>
         </header>
     );
-}
+};
 
-export default NewsNavbar;
-
-
+export default Navbar; 

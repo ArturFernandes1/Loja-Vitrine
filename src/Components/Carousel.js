@@ -1,7 +1,7 @@
 import React from 'react';
 import Cozinha1 from "../Assets/Cozinha1.jpg";
 import Cozinha2 from "../Assets/Cozinha2.jpeg";
-import Sala11 from "../Assets/Sala11.jpg";
+import imagem_carousel from "../Assets/imagem_carousel.jpg"
 import "./Carousel.css";
 
 function Carousel() {
@@ -18,7 +18,7 @@ function Carousel() {
                 <div className="container">
                     <div className="carousel-caption custom-carousel-caption">
                         <h1>Realize o Sonho da Cozinha Planejada!</h1>
-                       <p className="opacity-75"> Não é só sobre beleza; é sobre funcionalidade. Gavetas inteligentes, armários acessíveis e superfícies de trabalho adaptadas a você, tudo pensado para maximizar o espaço e facilitar o seu dia a dia. Desperte o chef que há em você em um ambiente que inspira criatividade e reúne a família.</p>
+                      {/*  <p className="opacity-75"> Não é só sobre beleza; é sobre funcionalidade. Gavetas inteligentes, armários acessíveis e superfícies de trabalho adaptadas a você, tudo pensado para maximizar o espaço e facilitar o seu dia a dia. Desperte o chef que há em você em um ambiente que inspira criatividade e reúne a família.</p> */}
                     </div>
                 </div>
             </div>
@@ -27,18 +27,18 @@ function Carousel() {
                 <div className="container">
                     <div className="carousel-caption text-start custom-carousel-caption">
                         <h1>Transforme seu quarto em um refúgio personalizado.</h1>
-                     <p className="opacity-75">Renove seu quarto e transforme-o em um refúgio pessoal, sob medida para seus gostos e necessidades. Com móveis projetados, você pode criar um ambiente único e funcional, que reflete sua personalidade e estilo de vida.</p>
+               {/*       <p className="opacity-75">Renove seu quarto e transforme-o em um refúgio pessoal, sob medida para seus gostos e necessidades. Com móveis projetados, você pode criar um ambiente único e funcional, que reflete sua personalidade e estilo de vida.</p> */}
                     </div>
                 </div>
             </div>
             <div className="carousel-item carousel-item-next carousel-item-start">
-                <img src={Sala11} className="d-block w-100" alt="Moveis 1" />
+                <img src={imagem_carousel} className="d-block w-100" alt="Moveis 1" />
                 <div className="container">
                     <div className="carousel-caption text-start custom-carousel-caption">
                         <h1>Estilo e praticidade se unem neste quarto com móveis modernos.</h1>
-                    <p className="opacity-75">Experimente os cursos e materiais 
+             {/*        <p className="opacity-75">Experimente os cursos e materiais 
                     funcionalidade. Gavetas inteligentes, armários acessíveis e superfícies de trabalho adaptadas a você, tudo pensado para maximizar o espaço e facilitar o seu dia a dia. Desperte o chef que há em você em um ambiente que inspira criatividade e reúne a família.disponibilizados pelo IEEE.</p>
-                    </div>
+                    */} </div>
                 </div>
             </div>
         </div>

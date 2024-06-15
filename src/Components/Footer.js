@@ -14,7 +14,6 @@ function Footer() {
                   <li><a className="footer-link" href="https://www.ifpb.edu.br/" rel="noopener noreferrer">Vidraçaria Vitral</a></li>
                   <li><a className="footer-link" href="https://estudante.ifpb.edu.br/" rel="noopener noreferrer">MDF Design & Decoração</a></li>
                   <li><a className="footer-link" href="https://matrizdinamica-ifpb.netlify.app/course/1" rel="noopener noreferrer">Móveis Arte & Estilo</a></li>
-                  <li><a className="footer-link" href="https://horarios.ifpb.edu.br/campina/" rel="noopener noreferrer">Horários IFPB</a></li>
                 </ul>
               </div>
               <div className="col">

@@ -7,17 +7,20 @@
     background-size: cover; 
     background-position: center;
     display: flex;
-    height: 80vh;
+    height: auto;
     justify-content: center;
     max-width: 1400px;
     margin: 0 auto;
 }
 
-.text2 h1, h2{
+.text2 h2{
     text-align: center;
     margin-top: 20px;
 }
-
+.text2 h1{
+    text-align: center;
+    margin-top: 40px;
+}
 .text2 p{
     text-align: center;
     margin-top: 20px;
@@ -27,11 +30,11 @@
 
 .quad-1{
     font-family: 'Times New Roman', Times, serif;
-    background-color: #b4b4b8;
+    background-color: #181755;;
     position: relative;
     width: 240px;
     height: 240px;
-    color: #181755;
+    color:  #b4b4b8;
     border-radius: 8px;
     text-align: center;
 }
@@ -41,7 +44,7 @@
 } 
 .quad-1 h3{
     font-size: 180px;
-    opacity: 0.8;
+    opacity: 0.5;
     text-align: center;
 }
 
@@ -52,7 +55,7 @@
     text-align: center;
     align-items: center;
     padding: 8px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .text-over-heading {
     position: absolute;

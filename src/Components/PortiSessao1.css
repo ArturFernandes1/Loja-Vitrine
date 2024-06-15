@@ -1,9 +1,11 @@
-
 /* Ajustes para a seção de portfólio */
-.portifolio{
+.portifolio {
     max-width: 1400px;
     margin: 0 auto;
     padding: 25px;
+}
+.portifolio {
+    margin-top: 50px;
 }
 
 .section {
@@ -12,99 +14,66 @@
     flex-wrap: wrap;
     gap: 10px;
     max-width: 1400px;
-    margin: 0 auto;
+    margin-bottom: 70px;
 }
-.portifolio h1{
+.portifolio h1 {
     margin-left: 0px;
-    font-size: 40px;
+    font-size: 45px;
 }
-.portifolio hr{
+.portifolio hr {
     margin-bottom: 45px;
 }
+
+/* Nova estilo do portifolio */
 .card {
-    flex-basis: calc(33.33% - 9px); /* 33.33% - 2 * 8px (espaçamento entre cartões) */
-    box-sizing: border-box;
-    text-align: center;
+    width: 400px; /* Aumentando a largura do card */
+    aspect-ratio: 1 / 1; /* Ajustando a altura para ser igual à largura */
+    border-radius: 8px;
     position: relative;
-    overflow: hidden;
-    line-height: 6px;
-    margin-bottom: 10px; /* Adicione espaço abaixo de cada cartão */
+    cursor: pointer;
+    overflow: hidden; /* Adiciona overflow hidden para garantir que a descrição fique dentro do card */
 }
-
-.card img {
+.card .image-box {
     width: 100%;
-    height: 70%;
-    /* Altura removida para permitir altura automática baseada na proporção */
+    height: 100%;
+    border-radius: inherit;
+}
+.card .image-box img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    /* Adicionado para remover a margem da imagem, conforme solicitado */
-    display: block; /* Isso remove o espaço extra abaixo da imagem */
-    /* Definindo uma altura máxima para simular o aspecto do Instagram */
-    max-height: 600px; /* Exemplo de altura máxima; ajuste conforme necessário */
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: filter 0.5s ease-in-out;
 }
 
-/* Para manter a responsividade, você pode querer usar media queries */
-@media (max-width: 600px) {
-    .card img {
-        max-height: 300px; /* Altura menor para dispositivos menores */
-    }
+.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out, inset 0.4s ease-in-out;
 }
-
-
-
-
-.detalhes {
-    background-color: white;
-    margin-top: 20px;
-    margin-bottom: 18px;
-    line-height: 20.9px;
-    text-align: left;
-    color: black;
-    margin: 40px;
+.card:hover img {
+    filter: grayscale(1) brightness(0.4);
 }
-
-.detalhes h3{
-    font-size: 22px;
-    margin-bottom: 30px;
+.card:hover::after {
+    opacity: 1;
+    inset: 20px;
 }
-.detalhes a{
-    background-color: white;
-    margin-top: 20px;
-    color: blue;
+.content {
+    width: 80%;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0; /* Inicialmente ocultar o conteúdo */
+    transition: opacity 0.5s ease-in-out;
 }
-/* Media query para telas menores ou iguais a 600px */
-@media screen and (max-width: 600px) {
-    .section {
-        flex-direction: column; /* Coloca os elementos em uma única coluna */
-        align-items: center; /* Centraliza os elementos na coluna */
-    }
-
-    .card {
-        flex-basis: 100%; /* Define a largura dos cartões para 100% da largura da coluna */
-    }
-}
-
-/* Media query para telas menores ou iguais a 400px */
-@media screen and (max-width: 400px) {
-    .section {
-        flex-direction: column; /* Coloca os elementos em uma única coluna */
-        align-items: center; /* Centraliza os elementos na coluna */
-    }
-
-    .card {
-        flex-basis: 100%; /* Define a largura dos cartões para 100% da largura da coluna */
-    }
-}
-
-.catalogo{
-    margin-bottom: 10px;
-}
-.catalogo h1{
-    margin-left: 35px;
-    margin-top: 60px;
-}
-.catalogo hr{
-    size: 10px;
-    color: black;
-    margin-left: 35px;
-    margin-right: 35px;
+.card:hover .content {
+    opacity: 1; /* Mostrar o conteúdo ao passar o mouse */
 }

@@ -4,8 +4,8 @@ import "../Components/OrcamenSessao2.css";
 
 function OrcamenSessao2() {
   return (
-    <div>
-      <div className="container">
+ 
+      <div className="container-forms">
         <div className="formulario">
           <form action="enviar_email.php" method="post">
             <div id="text-anexar">
@@ -34,14 +34,14 @@ function OrcamenSessao2() {
                 placeholder="Fale um pouco como quer o seu projeto."
               ></textarea>
             </div>
-            <div className="button">
-              <button type="submit">Enviar</button>
-              <button type="reset">Limpar</button>
+            <div className="buttons">
+              <button id="button1" type="submit">Enviar</button>
+              <button id="button2" type="reset">Limpar</button>
             </div>
           </form>
         </div>
       </div>
-    </div>
+  
   );
 }
 

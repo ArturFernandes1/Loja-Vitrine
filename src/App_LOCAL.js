@@ -1,10 +1,10 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Components/Paginas/Home";
-import Empresa from "./Components/Paginas/$(selector).empty();"
-import Contato from "./Components/Paginas/Contato"
-import Orcamento from "./Components/Paginas/Orcamento"
-import Portifolio from "./Components/Paginas/Portifolio"
+import Home from "./Components/pages/Home";
+import Empresa from "./Components/pages/$(selector).empty();"
+import Contato from "./Components/pages/Contato"
+import Orcamento from "./Components/pages/Orcamento"
+import Portifolio from "./Components/pages/Portifolio"
 
 
 

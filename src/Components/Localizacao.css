@@ -1,116 +1,75 @@
-#localizacao-empresa{
-    background-color: rgb(190, 190, 190);
+#localizacao-empresa {
+    background-color: white;
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .maps {
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    max-width: 1400px;
-    padding: 35px;
-    margin: 0 auto;
-    
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
-.maps{
-    margin-bottom: 45px;
-}
+
 .info {
-    flex: 1; /* Isso faz com que a div "info" ocupe o espaço disponível */
-    padding: 10px; /* Adicione margem interna para espaçamento */
-    text-align: center; /* Centraliza horizontalmente */
-    line-height: 100px;
-    color: rgb(24, 23, 23);
-    margin-top: 90px;
+    text-align: center;
+    color: #4984DF;
 }
-h2{
+
+.info h2 {
     font-size: 45px;
-    text-align: center; /* Centraliza horizontalmente */
-    line-height:40px;
+    margin: 20px 0;
+    color: #4984DF;
+    font-family: 'Roboto', sans-serif;
 }
-.name-empresa{
-    font-size: 32px;
-    text-align: center; /* Centraliza horizontalmente */
-    line-height:20px;
-    letter-spacing: -2.4px;
+
+.name-empresa {
+    font-size: 24px;
+    font-weight: 300;
+    color: #4984DF;
+    margin: 5px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.maps-google {
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .maps-google iframe {
-    flex: 1; /* Isso faz com que a div "maps-google" ocupe o espaço disponível */
-    width: 650px;
-    height: 310px;
-    margin: 18px;
-   
+    width: 100%;
+    height: 450px;
+    border: none;
 }
 
-@media screen and (max-width: 600px) {
-    .maps{
-        width: 100%;
-        display: inline-flex;
-        flex-direction: column;
-        height: 700px;
-        margin-bottom: 30px;
-        
-        
-    }
+@media screen and (max-width: 768px) {
     .maps-google iframe {
-        width: 460px; /* Defina a largura máxima para que a iframe se ajuste à largura do contêiner pai */
-        height: 330px; /* Deixe a altura se ajustar automaticamente ao proporção da largura */
-        
-       
+        height: 300px;
     }
-}
-@media screen and (max-width: 300px) {
-    .maps{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: 400px;
-   
+
+    h2 {
+        font-size: 28px;
     }
-    h2{
-        font-size: 22px;
-        text-align: center; /* Centraliza horizontalmente */
-        line-height:20px;
-     }
-    .name-empresa{
-        font-size: 30px;
-        text-align: center; /* Centraliza horizontalmente */
-        line-height:20px;
-        letter-spacing: -2.4px;
-    }
-    .maps-google {
-        flex: 1; /* Isso faz com que a div "maps-google" ocupe o espaço disponível */
-        width: 360px;
-       
-       
-       
-       
+
+    .name-empresa {
+        font-size: 20px;
     }
 }
 
-/* ###################### */
-.maps-google {
-    display: flex; /* Usa Flexbox para alinhamento */
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    padding: 20px; /* Adiciona um pouco de espaço ao redor para não tocar as bordas da tela */
-  }
-  
-  .maps-google iframe {
-
-    width: 650px; /* Limita a largura máxima para não ficar muito grande em telas maiores */
-    height: auto; /* Altura automática para manter a proporção */
-    aspect-ratio: 16 / 9; /* Mantém uma proporção de aspecto */
-    border: 0; /* Remove a borda padrão do iframe */
-  }
-  
-  @media (max-width: 300px) {
-    .maps-google {
-      padding: 10px; /* Reduz o padding em telas muito pequenas para maximizar o espaço disponível */
-    }
-    
+@media screen and (max-width: 480px) {
     .maps-google iframe {
-      width: 200px;
-      height: 150px; /* Altura ajustada para garantir que o mapa seja visível mas não ocupe muito espaço */
+        height: 250px;
     }
-  }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .name-empresa {
+        font-size: 18px;
+    }
+}
+

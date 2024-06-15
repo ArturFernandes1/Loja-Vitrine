@@ -1,4 +1,10 @@
 .container_contato{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: aqua;
    
 }
 #contato{
@@ -7,6 +13,7 @@
     gap: 10px;
     max-width: 1400px;
     margin: 0 auto;
+
 }
 .fale-conosco{
     margin-top: 50px;
@@ -24,10 +31,10 @@
 }
 @media screen and (max-width: 600px) {
     .fale-conosco{
-        text-align: justify;
-        margin-top: 50px;
-        margin-left: 25px;
-        margin-right: 25px;
+        text-align: left;
+        margin-top: 150px;
+        margin-left: 15px;
+        margin-right: 15px;
         line-height: 25px;
         margin-bottom: 80px;
     }  

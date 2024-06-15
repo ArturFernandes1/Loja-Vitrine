@@ -3,9 +3,11 @@ import "../Components/ContatoFrase.css"
 
 function ContatoFrase(){
     return (
-        <div>
-          <h1>Contato</h1>
-          <hr className="classlinha" />
+        <div className='contato-frase'>
+            <div className='contato-frase-sub'>
+              <h1>Contato</h1>
+              <hr></hr>
+            </div>
         </div>
       );
       

@@ -1,0 +1,36 @@
+#carouselExampleIndicators{
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+
+.subcontainer {
+  display: flex;
+  justify-content: space-around; /* Para distribuir as divs uniformemente na horizontal */
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+.carousel {
+  /* Adicione qualquer estilo necessário para o carousel */
+  /* Por exemplo, width, margin, etc. */
+}
+.carousel-item img {
+  width: 450px; /* Defina o tamanho desejado em pixels */
+ 
+  border-radius: 12px;
+}
+@media screen and (max-width: 600px) {
+  #container{
+    flex-direction: column;
+  }
+  #carouselExampleIndicators{
+    width: 360px;
+    height: 360px;
+    margin: 0 auto;
+  
+  }
+  
+}
